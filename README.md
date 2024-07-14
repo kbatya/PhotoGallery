@@ -8,7 +8,7 @@ User-Friendly Interface: The navigation buttons are enabled or disabled based on
 Icon Fonts: The application makes use of appropriate icon fonts for the navigation buttons.
 Responsive Design: Ensures the gallery looks good on different screen sizes.
 Screenshots
-(Include screenshots of your app here)
+![Screenshot of Photo Gallery in Android Emulator](https://github.com/kbatya/PhotoGallery/blob/master/screenshotMAUI.png)
 
 Requirements
 .NET MAUI: Make sure you have the latest version of .NET MAUI installed.
