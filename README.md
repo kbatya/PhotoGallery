@@ -2,12 +2,14 @@
 Overview
 This project is a beginner-friendly task designed for those new to .NET MAUI. It involves creating a simple photo gallery application with 8 pictures and navigation buttons. The gallery allows users to navigate through the images using "Up" and "Down" buttons.
 
-Features
+Dynamic and Static UI Creation: Demonstrates two ways of creating UI:
+Dynamic in Code: The navigation of pictures is designed from the first picture to the last.
+Static in XAML: The navigation of images is designed in a circular way.
 Simple Navigation: Use the "Up" and "Down" buttons to navigate through the gallery of images.
 User-Friendly Interface: The navigation buttons are enabled or disabled based on the current image index to provide a smooth user experience.
 Icon Fonts: The application makes use of appropriate icon fonts for the navigation buttons.
 Responsive Design: Ensures the gallery looks good on different screen sizes.
-Screenshots
+Screenshot of Photo Gallery in Android Emulator
 ![Screenshot of Photo Gallery in Android Emulator](https://github.com/kbatya/PhotoGallery/blob/master/screenshotMAUI.png)
 
 Requirements
