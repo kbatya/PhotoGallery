@@ -28,7 +28,7 @@ This project is a beginner-friendly task designed for those new to **.NET MAUI**
 
 1. Clone the repository:
    ```bash
-   git clone https:(//https://github.com/kbatya/PhotoGallery.git)
+   git clone https://github.com/kbatya/PhotoGallery.git
 
 
 
