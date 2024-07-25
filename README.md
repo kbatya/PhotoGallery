@@ -16,7 +16,8 @@ This project is a beginner-friendly task designed for those new to **.NET MAUI**
 5. [Validation Rules](#validation-rules)
 6. [Requirements](#requirements)
 7. [How to Run](#how-to-run)
-
+## Scatch of the Registration Page
+![Scatch of the Screen](https://github.com/kbatya/PhotoGallery/blob/master/registrationScatch.png)
 ## Screen Design
 The registration screen includes the following elements:
 - Image element (background/title)
@@ -48,7 +49,8 @@ with the following properties:
 ## Screen Implementation
 The screen named `RegistrationPage`.
 
-![Scatch of the Screen](https://github.com/kbatya/PhotoGallery/blob/master/registrationScatch.png)
+
+## Screenshot in Android Emulator
 ![Screenshot of the Android Emulator](https://github.com/kbatya/PhotoGallery/blob/master/registrationScreen.png)
 ## Validation Rules
 1. All fields are requared
@@ -66,7 +68,7 @@ Appropriate red color error message will be displayed for each validation failur
 - **Icon Fonts for Navigation**: The application uses icon fonts for the `Text` property of the **"Up"** and **"Down"** buttons, displaying arrow symbols for a clear and visually appealing navigation interface.
 - **Responsive Design**: Ensures the gallery looks good on different screen sizes.
 
-## Screenshot of Photo Gallery in Android Emulato
+## Screenshot of Photo Gallery in Android Emulator
 
 ![Screenshot of Photo Gallery in Android Emulator](https://github.com/kbatya/PhotoGallery/blob/master/screenshotMAUI.png)
 
