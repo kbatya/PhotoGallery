@@ -67,6 +67,7 @@
 	  <None Remove="Resources\Images\image_5.jpeg" />
 	  <None Remove="Resources\Images\image_6.jpeg" />
 	  <None Remove="Resources\Images\image_7.jpeg" />
+	  <None Remove="Resources\Images\login_image.jpg" />
 	</ItemGroup>
 
 	<ItemGroup>
@@ -82,6 +83,13 @@
 	  <MauiXaml Update="RegistrationPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
+	  <MauiXaml Update="Views\LoginPage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Folder Include="Helpers\" />
 	</ItemGroup>
 
 </Project>

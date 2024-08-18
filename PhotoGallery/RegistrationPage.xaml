@@ -3,70 +3,69 @@
     x:Class="PhotoGallery.RegistrationPage"
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-    
-    
     BackgroundImageSource="background_photo_gallery.jpg">
 
 
 
     <Shell.TitleView>
         <Grid>
-            <Label Text="Registration visitors" 
-               FontAttributes="Bold"
-               FontSize="22"
-               TextColor="Purple"
-               HorizontalOptions="Center"
-               VerticalOptions="Start" />
+            <Label
+                FontAttributes="Bold"
+                FontSize="22"
+                HorizontalOptions="Center"
+                Text="Registration visitors"
+                TextColor="Purple"
+                VerticalOptions="Start" />
         </Grid>
     </Shell.TitleView>
     <ScrollView>
-            <VerticalStackLayout
-                Padding="30,0"
-                Spacing="25"
-                VerticalOptions="Center">
+        <VerticalStackLayout
+            Padding="30,0"
+            Spacing="25"
+            VerticalOptions="Center">
 
 
-          
+
             <Entry
-                    x:Name="NameEntry"
-                    Placeholder="Name"
-                    Text="{Binding Name}" />
+                x:Name="NameEntry"
+                Placeholder="Name"
+                Text="{Binding Name}" />
 
-                <Entry
-                    x:Name="UsernameEntry"
-                    Placeholder="Username"
-                    Text="{Binding Username}" />
+            <Entry
+                x:Name="UsernameEntry"
+                Placeholder="Username"
+                Text="{Binding Username}" />
 
-                <Entry
-                    x:Name="EmailEntry"
-                    Keyboard="Email"
-                    Placeholder="Email"
-                    Text="{Binding Email}" />
+            <Entry
+                x:Name="EmailEntry"
+                Keyboard="Email"
+                Placeholder="Email"
+                Text="{Binding Email}" />
 
-                <Entry
-                    x:Name="PhoneEntry"
-                    Keyboard="Telephone"
-                    Placeholder="Phone"
-                    Text="{Binding Phone}" />
+            <Entry
+                x:Name="PhoneEntry"
+                Keyboard="Telephone"
+                Placeholder="Phone"
+                Text="{Binding Phone}" />
 
-                <Entry
-                    x:Name="PasswordEntry"
-                    IsPassword="True"
-                    Placeholder="Password"
-                    Text="{Binding Password}" />
+            <Entry
+                x:Name="PasswordEntry"
+                IsPassword="True"
+                Placeholder="Password"
+                Text="{Binding Password}" />
 
-                <DatePicker x:Name="DateOfBirthPicker" Date="{Binding DateOfBirth}" />
+            <DatePicker x:Name="DateOfBirthPicker" Date="{Binding DateOfBirth}" />
 
-                <Label FontAttributes="Bold" Text="{Binding Age, StringFormat='Age: {0}'}" />
+            <Label FontAttributes="Bold" Text="{Binding Age, StringFormat='Age: {0}'}" />
 
-                <Label x:Name="ErrorLabel" TextColor="Red" />
+            <Label x:Name="ErrorLabel" TextColor="Red" />
 
-                <Button
-                    x:Name="RegisterButton"
-                    Clicked="OnRegisterClicked"
-                    HorizontalOptions="Center"
-                    Text="Register" />
-            </VerticalStackLayout>
-        </ScrollView>
-    
+            <Button
+                x:Name="RegisterButton"
+                Clicked="OnRegisterClicked"
+                HorizontalOptions="Center"
+                Text="Register" />
+        </VerticalStackLayout>
+    </ScrollView>
+
 </ContentPage>
