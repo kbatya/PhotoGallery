@@ -14,8 +14,7 @@ This project is a beginner-friendly task designed for those new to **.NET MAUI**
 3. [Model Creation](#model-creation)
 4. [Screen Implementation](#screen-implementation)
 5. [Validation Rules](#validation-rules)
-6. [Requirements](#requirements)
-7. [How to Run](#how-to-run)
+
 ## Scatch of the Registration Page
 ![Scatch of the Screen](https://github.com/kbatya/PhotoGallery/blob/master/registrationScatch.png)
 ## Screen Design
@@ -85,9 +84,9 @@ Appropriate red color error message will be displayed for each validation failur
   3)  [BaseView] (#base-view)
   4)  [Functionality] (#functionality)
   5)  [Screen] (#screen)
-  6)  
-6. [Requirements](#requirements)
-7. [How to Run](#how-to-run)
+4. [Screen shot] (#screen-shot)
+5. [Requirements](#requirements)
+6. [How to Run](#how-to-run)
 ## Scatch of the Registration Page
 ![Scatch of the Screen](https://github.com/kbatya/PhotoGallery/blob/master/registrationScatch.png)
 ## Screen Design
